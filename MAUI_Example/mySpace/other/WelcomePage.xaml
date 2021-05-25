@@ -1,0 +1,48 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Example1.WelcomePage"
+             BackgroundColor="White">
+
+    <StackLayout Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
+       <Label Text="This is my sample App" 
+       FontSize="18"
+       HorizontalOptions="Center"
+       TextColor="Red"
+       />
+       <Button 
+       Clicked="MyBasicClickEvent"
+       Text="Press for hints."
+       HorizontalOptions="Center"
+       />
+       <Label
+       x:Name="myOutput"
+        Text="No Message yet. Click the button!" 
+       FontSize="18"
+       TextColor="Black"
+       HorizontalOptions="Center"
+       />       
+       <Grid>
+         <CheckBox
+         CheckedChanged="checkHandler"/>       
+         <Label
+         x:Name="rememberOutput"
+         Text="You won't be remembered." 
+         FontSize="18"
+         TextColor="Black"
+         HorizontalOptions="Center"
+         />    
+       </Grid>  
+       <Label
+       x:Name="myNameInputState"
+        Text="" 
+       FontSize="18"
+       TextColor="Black"
+       HorizontalOptions="Center"
+       />
+      <Label x:Name="PleaseRate" Text="Please rate our app" />
+		<Slider x:Name="Rate" ValueChanged="updateRating" />
+		<Label x:Name="YourRating" Text="You are still sleeping" />
+
+    </StackLayout>
+
+</ContentPage>
