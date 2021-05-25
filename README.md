@@ -13,7 +13,7 @@ Da sich MAUI aktuell noch in der Entwicklung befindet, müssen die benötigten W
 Das MAUI Repository von Microsoft ist [hier](https://github.com/dotnet/maui) zu finden. Dort kann der aktuelle Stand geprüft oder Feedback gegeben werden.
 
 
-Ich werde mit euch die Inhalte der [Presentation](maui.odp) durchgehen und zu Demonstrationszwecken das hier abgelegte [Projekt](LiveMauiDemo) erstellen und analysieren.
+Ich werde mit euch die Inhalte der [Presentation](maui.pdf) durchgehen und zu Demonstrationszwecken das hier abgelegte [Projekt](LiveMauiDemo) erstellen und analysieren.
 
 
 ## Installation und erste Schritte unter Windows und MacOS
