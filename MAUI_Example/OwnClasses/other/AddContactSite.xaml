@@ -1,0 +1,18 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Example1.AddContactSite"
+             BackgroundColor="White">
+
+    <StackLayout Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
+
+        <Image />
+        <DatePicker x:Name="birthdayDatePicker" HorizontalOptions="Center" />
+        <Editor Text="firstname" x:Name="firstNameField" HorizontalOptions="Center" />
+        <Editor Text="surname" x:Name="surNameField" HorizontalOptions="Center" />
+        <Editor Text="phonenumber" x:Name="phonenumberField" HorizontalOptions="Center" />
+       <Button x:Name="addUser" Clicked="saveNewUser" Text="add user" HorizontalOptions="Center"/>
+
+
+        <Label x:Name="userAmount" Text="0" />
+    </StackLayout>
+</ContentPage>

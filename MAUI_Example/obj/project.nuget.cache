@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yb/BDAjP1IgD5aeIRiZBjO2g5K/IjM4JcllBxhwr6h+kRAbyaDhnKetlyDDjRwAx0byhKmevFYXK3ACWXFqCFA==",
+  "dgSpecHash": "aR1F7J+z+5Cx5CfQdqUiIA0xgek7S0brzAjiJ+h4YBI7+moTb5/g2B4KcwMj4HOFxahPJVCw5rQI7OG2eSqfsQ==",
   "success": true,
-  "projectFilePath": "D:\\DH\\Jahr_2\\SE\\portfolio_MAUI\\projects\\Example1\\Example1.csproj",
+  "projectFilePath": "C:\\Users\\Wod\\source\\repos\\MAUI_EPortfolio\\MAUI_Example\\Example1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wod\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0-preview.2.21110.7\\microsoft.extensions.configuration.6.0.0-preview.2.21110.7.nupkg.sha512",
     "C:\\Users\\Wod\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0-preview.2.21110.7\\microsoft.extensions.configuration.abstractions.6.0.0-preview.2.21110.7.nupkg.sha512",

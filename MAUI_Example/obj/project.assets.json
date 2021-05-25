@@ -9833,11 +9833,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DH\\Jahr_2\\SE\\portfolio_MAUI\\projects\\Example1\\Example1.csproj",
+      "projectUniqueName": "C:\\Users\\Wod\\source\\repos\\MAUI_EPortfolio\\MAUI_Example\\Example1.csproj",
       "projectName": "Example1",
-      "projectPath": "D:\\DH\\Jahr_2\\SE\\portfolio_MAUI\\projects\\Example1\\Example1.csproj",
+      "projectPath": "C:\\Users\\Wod\\source\\repos\\MAUI_EPortfolio\\MAUI_Example\\Example1.csproj",
       "packagesPath": "C:\\Users\\Wod\\.nuget\\packages\\",
-      "outputPath": "D:\\DH\\Jahr_2\\SE\\portfolio_MAUI\\projects\\Example1\\obj\\",
+      "outputPath": "C:\\Users\\Wod\\source\\repos\\MAUI_EPortfolio\\MAUI_Example\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -9845,7 +9845,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "D:\\DH\\Jahr_2\\SE\\portfolio_MAUI\\projects\\Example1\\NuGet.Config",
+        "C:\\Users\\Wod\\source\\repos\\MAUI_EPortfolio\\MAUI_Example\\NuGet.Config",
         "C:\\Users\\Wod\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
