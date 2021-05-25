@@ -1,0 +1,54 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Example1.SnakePage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <StackLayout Padding="{OnPlatform iOS='30,60,30,30', Default='10'}">
+
+            <!--Header & Menu-->
+            <Label Text="This is Snake" 
+            FontSize="18"
+            HorizontalOptions="Center"
+            TextColor="Red" />
+
+            <Button x:Name="BtnStartGame" Text="start" Command="{Binding Start}" IsEnabled="{Binding startBtnVisible}" IsVisible="{Binding startBtnVisible}"/>
+            <Button x:Name="BtnPauseGame" Text="pause" Command="{Binding Pause}" IsEnabled="{Binding stopBtnVisible}" IsVisible="{Binding stopBtnVisible}"/>
+
+            <Grid>
+                <StackLayout>
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[0]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[1]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[2]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[3]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[4]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[5]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[6]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[7]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[8]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[9]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[10]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                    <Label HorizontalOptions="Center" Text="{Binding UILines[11]}" BackgroundColor="{Binding FieldBackgroundColor}" TextColor="{Binding FieldTextColor}" />
+                </StackLayout>
+                <Image 
+                Source="dotnet_bot.svg"
+                SemanticProperties.Description="Cute dotnet bot waving hi to you!"
+                Margin="40,0" 
+                IsVisible="{Binding YouDied}"
+                HorizontalOptions="Center"/>
+            </Grid>
+
+            <Label FontSize="24" TextColor="Red" HorizontalOptions="Center" Text="{Binding Banner}" />
+
+            <!--Input-->
+            <StackLayout>
+                <Button x:Name="BtnUp" Text="up" Command="{Binding GoUp}" HorizontalOptions="Center"/>
+                <Grid>
+                    <Button x:Name="BtnLeft" Text="left" Command="{Binding GoLeft}" VerticalOptions="Fill" HorizontalOptions="Start"/>
+                    <Button x:Name="BtnRight"  Text="right" Command="{Binding GoRight}" VerticalOptions="Fill" HorizontalOptions="End"/>
+                </Grid>
+                <Button x:Name="BtnDown" Text="down" Command="{Binding GoDown}" HorizontalOptions="Center"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

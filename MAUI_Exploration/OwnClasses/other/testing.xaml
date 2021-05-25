@@ -1,0 +1,24 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Example1.testing"
+             BackgroundColor="White">
+
+    <StackLayout Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
+
+        <!--Header & Menu-->
+        <Label Text="This is testing" 
+        FontSize="18"
+        HorizontalOptions="Center"
+        TextColor="Red" />
+        <Label Text="{Binding myBoundText}" 
+        FontSize="18"
+        HorizontalOptions="Center"
+        TextColor="Red" />
+        <Button Clicked="changeBoundValue" />
+        <Label x:Name="Out" Text="This Label is used to get some output for debugging purposes!" />
+        <Label x:Name="Out2" Text="This Label is used to get more output" />
+    
+
+    </StackLayout>
+
+</ContentPage>
