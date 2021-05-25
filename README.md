@@ -26,7 +26,7 @@ Ich werde mit euch die Inhalte der [Presentation](somelink) durchgehen und zu De
  - Kann [hier](https://code.visualstudio.com/) heruntergeladen werden
 ### 3. Android Emulator
  - im Visual Studio unter Extras -> Android -> Android-Geräte-Manager -> gewünschten Emulator installieren ("+ neu")  und starten
-### 4. in der cmd-line:
+### 4. in der Konsole:
 
 * `>dotnet tool install -g redth.net.maui.check`
 
@@ -55,7 +55,7 @@ Ich werde mit euch die Inhalte der [Presentation](somelink) durchgehen und zu De
   </packageSources>
 </configuration>
 ```
-* in der cmd-line:
+* in der Konsole:
 
    *  `>cd pathOfRootProjectFolder`
     
