@@ -1,6 +1,6 @@
 # MAUI_EPortfolio
 
-![some MAUI logo](dotnet_bot.svg)
+![some MAUI logo](LiveMauiDemo/Resources/Images/dotnet_bot.svg)
 
 ## Allgemeine Informationen
 
@@ -13,7 +13,7 @@ Da sich MAUI aktuell noch in der Entwicklung befindet, müssen die benötigten W
 Das MAUI Repository von Microsoft ist [hier](https://github.com/dotnet/maui) zu finden. Dort kann der aktuelle Stand geprüft oder Feedback gegeben werden.
 
 
-Ich werde mit euch die Inhalte der [Presentation](maui.odp) durchgehen und zu Demonstrationszwecken das hier abgelegte [Projekt](MAUI_Example) erstellen und analysieren.
+Ich werde mit euch die Inhalte der [Presentation](maui.odp) durchgehen und zu Demonstrationszwecken das hier abgelegte [Projekt](LiveMauiDemo) erstellen und analysieren.
 
 
 ## Installation und erste Schritte unter Windows und MacOS
