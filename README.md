@@ -17,8 +17,10 @@ Ich werde mit euch die Inhalte der [Presentation](maui.pdf) durchgehen und zu De
 
 
 ## Installation und erste Schritte unter Windows und MacOS
+### Stand Preview 3
 
 - siehe offizielle [Dokumentation](https://github.com/dotnet/maui/wiki/Getting-Started)
+- Mit kommenden Releases werden sich ggf. die aufgeführten Schritte ändern!
 
 ### 1. Visual Studio, bzw. .NET Umgebung installieren
  - Installer ist [hier](https://visualstudio.microsoft.com/de/) zu finden
